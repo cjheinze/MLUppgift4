@@ -11,6 +11,9 @@
 		3FC6803A2ADFCB23000BA6A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC680392ADFCB23000BA6A6 /* ContentView.swift */; };
 		3FC6803C2ADFCB25000BA6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC6803B2ADFCB25000BA6A6 /* Assets.xcassets */; };
 		3FC6803F2ADFCB25000BA6A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC6803E2ADFCB25000BA6A6 /* Preview Assets.xcassets */; };
+		3FC680462ADFCB38000BA6A6 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FC680452ADFCB38000BA6A6 /* SqueezeNet.mlmodel */; };
+		3FC680482ADFCD75000BA6A6 /* DoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC680472ADFCD75000BA6A6 /* DoModel.swift */; };
+		3FC6804C2AE0096D000BA6A6 /* ImageClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6804B2AE0096D000BA6A6 /* ImageClassification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		3FC680392ADFCB23000BA6A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FC6803B2ADFCB25000BA6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC6803E2ADFCB25000BA6A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FC680452ADFCB38000BA6A6 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		3FC680472ADFCD75000BA6A6 /* DoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoModel.swift; sourceTree = "<group>"; };
+		3FC6804B2AE0096D000BA6A6 /* ImageClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			children = (
 				3FC680372ADFCB23000BA6A6 /* MLUppgift4App.swift */,
 				3FC680392ADFCB23000BA6A6 /* ContentView.swift */,
+				3FC6804B2AE0096D000BA6A6 /* ImageClassification.swift */,
 				3FC6803B2ADFCB25000BA6A6 /* Assets.xcassets */,
+				3FC680452ADFCB38000BA6A6 /* SqueezeNet.mlmodel */,
 				3FC6803D2ADFCB25000BA6A6 /* Preview Content */,
+				3FC680472ADFCD75000BA6A6 /* DoModel.swift */,
 			);
 			path = MLUppgift4;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC680482ADFCD75000BA6A6 /* DoModel.swift in Sources */,
 				3FC6803A2ADFCB23000BA6A6 /* ContentView.swift in Sources */,
+				3FC6804C2AE0096D000BA6A6 /* ImageClassification.swift in Sources */,
+				3FC680462ADFCB38000BA6A6 /* SqueezeNet.mlmodel in Sources */,
 				3FC680382ADFCB23000BA6A6 /* MLUppgift4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MLUppgift4/Preview Content\"";
-				DEVELOPMENT_TEAM = ZYSVXJDSUQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -301,7 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MLUppgift4/Preview Content\"";
-				DEVELOPMENT_TEAM = ZYSVXJDSUQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
